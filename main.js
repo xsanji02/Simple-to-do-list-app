@@ -13,11 +13,13 @@ enterTodoButton.addEventListener("click", function(){
    addTodo();
 });
 
-document.addEventListener("keydown", function(event){
-   if (event.key === 'Delete' || event.key === 'Backspace') {
-      todoItem[0].remove();
-   }
-})
+//removing this code it cause deleting existing list
+
+// document.addEventListener("keydown", function(event){
+//    if (event.key === 'Delete' || event.key === 'Backspace') {
+//       todoItem[0].remove();
+//    }
+// })
 
 remove.addEventListener("click", function(){
    todoItem[0].remove();
